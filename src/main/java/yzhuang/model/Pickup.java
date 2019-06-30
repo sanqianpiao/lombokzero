@@ -4,6 +4,5 @@ package yzhuang.model;
  * @author yzhuang
  */
 
-public class Car extends Vehicle {
-
+public class Pickup extends Vehicle {
 }

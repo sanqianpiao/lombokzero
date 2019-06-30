@@ -1,6 +1,7 @@
 package yzhuang.service;
 
 import yzhuang.model.Car;
+import yzhuang.model.Pickup;
 import yzhuang.model.Vehicle;
 
 /**
@@ -13,6 +14,8 @@ public class VehicleFactory {
         switch (type) {
             case 0:
                 return new Car();
+            case 1:
+                return new Pickup();
             default:
                 throw new IllegalArgumentException();
         }
